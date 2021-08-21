@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook Pro</title>
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="container">
+        <div class="d-flex">
+            <div class="">
+                <img class="img-fluid" src="images/mac.png" alt="">
+            </div>
+            <div class="mx-5">
+                <!-- heading  -->
+                <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                <p>
+                    Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores,7-core GPU and 16-core
+                    Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Magic
+                    Keyboard-US english
+                </p>
+                <!-- memory choose option  -->
+
+                <h1 class="fs-4">Memory</h1>
+                <button id="memory-1-button" type="button" class="btn btn-outline-secondary">8GB unified
+                    memory</button>
+                <button id="memory-2-button" type="button" class="btn btn-outline-secondary">16GB unified
+                    memory</button>
+
+                <!-- memory choose option  -->
+                <h1 class="fs-4 mt-3">Storage</h1>
+                <button id="storage-1-button" type="button" class="btn btn-outline-secondary">256GB SSD storage</button>
+                <button id="storage-2-button" type="button" class="btn btn-outline-secondary">512GB SSD storage
+                </button>
+                <button id="storage-3-button" type="button" class="btn btn-outline-secondary">1TB SSD storage </button>
+                <!-- delivery choose option  -->
+
+                <h1 class="fs-4 mt-3">Choose your delivery options</h1>
+                <button id="delivery-1-button" type="button" class="btn btn-outline-secondary">Friday,Aug 25 FREE Prime
+                    Delivery</button>
+                <button id="delivery-2-button" type="button" class="btn btn-outline-secondary">Friday,Aug 25 Delivery
+                    charge $20</button>
+
+                <!-- price list  -->
+
+                <div class="mt-5">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Best Price</div>
+
+                            </div>
+                            <p>$<span id="best-price">1299</span></p>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Extra Memory Cost</div>
+
+                            </div>
+                            <p>$<span id="memory-cost">0</span></p>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Extra Memory Cost</div>
+
+                            </div>
+                            <p>$<span id="storage-cost">0</span></p>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Delivery Charge</div>
+
+                            </div>
+                            <p>$<span id="delivery-cost">0</span></p>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Total Price</div>
+
+                            </div>
+                            <p>$<span id="total-price">1299</span></p>
+                        </li>
+                    </ol>
+
+
+
+                </div>
+                <!-- promo code  -->
+
+                <h1 class="fs-4 mt-3">Add promo code</h1>
+                <div class="input-group mb-3">
+                    <input id="promo-code" type="text" class="form-control" placeholder=""
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-secondary" type="button" id="apply-button">Apply</button>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Display total price  -->
+    <section class="container">
+        <div>
+            <h1 class="text-center">Total:$<span id="total-cost">1299</span></h1>
+        </div>
+    </section>
+
+    <!-- javascript code link  -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
