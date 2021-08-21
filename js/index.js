@@ -60,19 +60,6 @@ document.getElementById('delivery-2-button').addEventListener('click', function 
 // for promo code 
 
 document.getElementById('apply-button').addEventListener('click', function () {
-
-    // const codeInput = document.getElementById('promo-code');
-    // const promoCode = codeInput.value;
-    // codeInput.value = '';
-    // const totalPriceInDisplay = document.getElementById('total-cost');
-    // const displayTotal = parseInt(totalPriceInDisplay.innerText);
-    // if (promoCode == 'stevekaku') {
-    //     const discountPrice = displayTotal - (displayTotal * 0.2);
-    //     totalPriceInDisplay.innerText = discountPrice;
-    // }
-    // else {
-    //     alert('You  Enter wrong Code');
-    // }
     promocodeApply();
 })
 
